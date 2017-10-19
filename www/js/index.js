@@ -16,5 +16,11 @@ window.localStorage.setItem(keyTrainPass, valueTrainPass);
 window.localStorage.setItem(keyKeys, valueKeys);
 window.localStorage.setItem(keySnack, valueSnack);
 
-var keyDrink = "drink";
-var valueDrink = window.localStorage.getItem(keyDrink);
+var getPhone = window.localStorage.getItem(keyPhone);
+var getWallet = window.localStorage.getItem(keyWallet);
+var getTrainPass = window.localStorage.getItem(keyTrainPass);
+var getKeys = window.localStorage.getItem(keyKeys);
+var getSnack = window.localStorage.getItem(keySnack);
+
+$("#myText").text(keyPhone);
+
