@@ -1,3 +1,5 @@
+alert("Test");
+
 
 var keyPhone = "Phone";
 var valuePhone = "S7";
@@ -22,8 +24,10 @@ var getTrainPass = window.localStorage.getItem(keyTrainPass);
 var getKeys = window.localStorage.getItem(keyKeys);
 var getSnack = window.localStorage.getItem(keySnack);
 
-$(document).ready(function(){
-$("#myText").text ("In my bag I always carry my" + keyPhone);
-};
+function carryPhone() {
+$("#myText").text("In my bag I always carry my" + keyPhone);
+}
+
+
 
 //window.alert(keyPhone);
