@@ -22,5 +22,6 @@ var getTrainPass = window.localStorage.getItem(keyTrainPass);
 var getKeys = window.localStorage.getItem(keyKeys);
 var getSnack = window.localStorage.getItem(keySnack);
 
-$("#myText").text(keyPhone);
+//$("#myText").text(keyPhone);
 
+window.alert(keyPhone);
