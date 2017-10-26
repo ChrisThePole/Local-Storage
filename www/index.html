@@ -21,10 +21,16 @@
 
   <div data-role="main" class="ui-content">
     <p>Welcome!</p>
-    
+     <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Panel</a>
   </div>
 
-  <div data-role="footer" data-position="fixed">
+    <div data-role="panel" id="myPanel"> 
+    <h2>Menu</h2>
+    <a href="#pagetwo">Go to Page Two</a>
+    <a href="#pagethree">Go to Page Three</a>
+  </div> 
+  
+    <div data-role="footer" data-position="fixed">
     <a href="#pagetwo">Go to Page Two</a>
     <a href="#pagethree">Go to Page Three</a>
   </div>
@@ -37,9 +43,15 @@
 
   <div data-role="main" class="ui-content">
     <p>This is Page Two.</p>
-    
+    <a href="#myPanel2" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Panel</a>
   </div>
 
+    <div data-role="panel" id="myPanel2"> 
+    <h2>Menu</h2>
+    <a href="#pageone">Go to Page One</a>
+    <a href="#pagethree">Go to Page Three</a>
+  </div> 
+    
   <div data-role="footer" data-position="fixed">
     <a href="#pageone">Go to Page One</a>
     <a href="#pagethree">Go to Page Three</a>
@@ -53,9 +65,15 @@
 
   <div data-role="main" class="ui-content">
     <p>This is Page Three.</p>
-   
+   <a href="#myPanel3" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Panel</a>
   </div>
 
+    <div data-role="panel" id="myPanel3"> 
+    <h2>Menu</h2>
+    <a href="#pageone">Go to Page One</a>
+    <a href="#pagetwo">Go to Page Two</a>
+  </div> 
+    
   <div data-role="footer" data-position="fixed">
     <a href="#pageone">Go to Page One</a> 
     <a href="#pagetwo">Go to Page Two</a>
